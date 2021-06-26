@@ -7,4 +7,13 @@ some core statistical concepts such as:
 •	t-test of the means
 •	correlation and linear regression tests
 •	comparing frequency distribution using chi-squared test
-![image](https://user-images.githubusercontent.com/80140082/123364732-d0e55d00-d529-11eb-8f71-a86d9d4e3053.png)
+
+## Linear Regression to Predict MPG
+
+Challenge_15_Deliverable1.png<img width="1440" alt="Challenge_15_Deliverable1" src="https://user-images.githubusercontent.com/80140082/123501718-c1364900-d5fb-11eb-9934-a4144bb9bd69.png">
+
+write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
