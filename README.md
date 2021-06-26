@@ -12,6 +12,11 @@ some core statistical concepts such as:
 
 Challenge_15_Deliverable1.png<img width="1440" alt="Challenge_15_Deliverable1" src="https://user-images.githubusercontent.com/80140082/123501718-c1364900-d5fb-11eb-9934-a4144bb9bd69.png">
 
+
+Challenge_15_Deliverable2.png![Challenge_15_Deliverable2](https://user-images.githubusercontent.com/80140082/123503046-42dea480-d605-11eb-970a-9e669a69fab4.png)
+
+
+
 write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
