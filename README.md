@@ -1,12 +1,14 @@
 # MechaCar_Statistical_Analysis
 
-This project some core statistical concepts such as:
+This project involved applying core statistical concepts and using R to compute statistics on production data for car manufacturing production process. The core statistical concepts applied are:
 •	mathematical data types
 •	null and alternative hypothesis
 •	p-values and hypothesis testing
 •	t-test of the means
 •	correlation and linear regression tests
 •	comparing frequency distribution using chi-squared test
+
+Two datasets (MechaCar_MPG and Suspension_Coils) were imported into RStudio integrated development environment (IDE) for R to perform the computation and analysis.
 
 Analysis: Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
@@ -15,7 +17,7 @@ Analysis: Write a short summary using a screenshot of the output from the linear
 3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Linear Regression to Predict MPG
-Objective: Design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file
+Objective: Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes by designing a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file
 
 Linear_regression.png![Linear_regression](https://user-images.githubusercontent.com/80140082/123522314-617a8500-d671-11eb-953f-ea362653464f.png)
 
