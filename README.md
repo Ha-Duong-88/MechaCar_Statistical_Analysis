@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-This project involved applying core statistical concepts and using R to compute statistics on production data for car manufacturing production process. The core statistical concepts applied are:
+This project involved applying core statistical concepts and using R to compute statistics on production data for a car manufacturing production process. The core statistical concepts applied are:
 •	mathematical data types
 •	null and alternative hypothesis
 •	p-values and hypothesis testing
@@ -26,9 +26,15 @@ To predict mpg, this model uses five independent variables: vehicle_length, vehi
 The p-values for the independent variables are: vehicle_length is 2.60e-12, vehicle_weight is 0.078, spoiler_angle is 0.31, ground_clearance is 21e-08, and for AWD is 0.19. The intercept (slope) is 5.08e-08. The overall p-value is 5.35e-11.
 
 ### Conclusion
-Using the p-value of 0.05 as the threshold for this study, we can see that the vehicle_length and ground_clearance are statistically significant variables in predicting the future observations for the mpg dependent variable. In other words, the vehicle_length and ground_clearance features affect the mpg value. Therefore, the model is statistically significant. The adjusted r-squared value of .6825 means that the model is predictive 68% of the time producing the expected future observations. For each value (or row) that we pass into the model, 68% of the data does not produce random results. However, ~32% of the data produces random results. This suggests that there could be other information or confounding variables that are not accounted for in this model.
+1) Using the significance level of 0.05 as the threshold for this study, we can see that the vehicle_length and ground_clearance are statistically significant variables in predicting the future observations for the mpg dependent variable. Their p-values are less than the significance level, which means that the null hypothesis is rejected. In other words, the vehicle_length and ground_clearance features provided a non-random amount of variance to the mpg values in the dataset. Therefore, the model is statistically significant. 
 
-As mentioned, for this analysis we are using a significance level of .05 as the threshold. The significance level may differ depending on the industry that the linear regression is performed on.
+2) Since the p-value of 5.35e-11 is less than the significance level of .05, the slope intercept is significantly different from zero.
+
+3) The linear model predicts the mpg of this hypothetical car manufacturing corporation's prototypes based on the adjusted r-squared value of .6825 which means that the model is predictive 68% of the time in obtaining the expected effect. For each value (or row) that we pass into the model, 68% of the data does not produce random results. However, ~32% of the data produces random results. This suggests that there could be other information or confounding variables that are not accounted for in this model.
+
+
+As aforementioned, for this analysis, a significance level of .05 was chosen as the threshold. However, it is important to note that the significance level may be selected depending on the industry that the linear regression is performed on. 
+
 
 ### Draft - to be removed in final
 If the p-value of the independent variables is less than the intercept (slope), 
