@@ -1,12 +1,13 @@
 # MechaCar_Statistical_Analysis
 
-This project involved applying core statistical concepts and using R to compute statistics on production data for a car manufacturing production process. The core statistical concepts applied are:
-•	mathematical data types
-•	null and alternative hypothesis
-•	p-values and hypothesis testing
-•	t-test of the means
-•	correlation and linear regression tests
-•	comparing frequency distribution using chi-squared test
+This project involved applying core statistical concepts and using R to compute statistics on production data for MechaCar, a hypothetical car manufacturing company. The core statistical concepts applied in this study were:
+
+      •	mathematical data types
+      •	null and alternative hypothesis
+      •	p-values and hypothesis testing
+      •	t-test of the means
+      •	correlation and linear regression tests
+      •	comparing frequency distribution using chi-squared test
 
 Two datasets (MechaCar_MPG and Suspension_Coils) were imported into RStudio integrated development environment (IDE) in order to use R to perform the computation and analysis.
 
@@ -28,12 +29,12 @@ The p-values for the independent variables are: vehicle_length is 2.60e-12, vehi
 ### Conclusion
 1) Using the significance level of 0.05 as the threshold for this study, we can see that the vehicle_length and ground_clearance are statistically significant variables in predicting the future observations for the mpg dependent variable. Their p-values are less than the significance level, which means that the null hypothesis is rejected. In other words, the vehicle_length and ground_clearance features provided a non-random amount of variance to the mpg values in the dataset. Therefore, the model is statistically significant. 
 
-2) Since the p-value of 5.35e-11 is less than the significance level of .05, the slope intercept is significantly different from zero.
+2) The slope intercept for this model is considered to be zero since the p-value of the independent variables (5.35e-11) is less than the slope intercept (5.808e-08). This means that there is a high probability that the same results will be obtained again and the vehicle_length and ground_clearance variables are able to predict future observations.
 
-3) The linear model predicts the mpg of this hypothetical car manufacturing corporation's prototypes based on the adjusted r-squared value of .6825 which means that the model is predictive 68% of the time in obtaining the expected effect. For each value (or row) that we pass into the model, 68% of the data does not produce random results. However, ~32% of the data produces random results. This suggests that there could be other information or confounding variables that are not accounted for in this model.
+3) The linear model predicts the mpg of this hypothetical car manufacturing corporation's prototypes based on the adjusted r-squared value of .6825 which means that the model is predictive ~68% of the time in obtaining the expected effect. For each value (or row) that we pass into the model, 68% of the data does not produce random results. However, ~32% of the data produces random results. This suggests that there could be other information or confounding variables that are not accounted for in this model.
 
 
-As aforementioned, for this analysis, a significance level of .05 was chosen as the threshold. However, it is important to note that the significance level may be selected depending on the industry that the linear regression is performed on. 
+As aforementioned, for this analysis a common significance level of 0.05 was chosen as the threshold. However, it is important to note that the significance level may be selected depending on the industry that the linear regression is performed on. 
 
 
 ### Draft - to be removed in final
@@ -63,7 +64,7 @@ The tables “total_summary and lot_summary” illustrate the mean, median, vari
 ## T-Tests on Suspension Coils
 Objective: Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch (PSI).
 
-The following image display the global T-Test result for all manufacturing lots.
+The following image display the global T-Test result across all manufacturing lots.
 
 ttest_suspension_coil_global.png![ttest_suspension_coil_global](https://user-images.githubusercontent.com/80140082/123524585-4400e780-d680-11eb-9362-03744ecf16c2.png)
 
@@ -76,10 +77,22 @@ ttest_lot2.png![ttest_lot2](https://user-images.githubusercontent.com/80140082/1
 
 ttest_lot3.png![ttest_lot3](https://user-images.githubusercontent.com/80140082/123524870-ecfc1200-d681-11eb-8f11-4bd31ab3e7f3.png)
 
-
+### Conclusion
 In conclusion, Lots 1 and 2 are statistically significant and Lot 3 is insignificant. Assuming our significance level is the common 0.05 percent, the p-values for Lot 1 (1.0) and Lot 2 (0.6027) are above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and the two means are statistically similar. However, the p-value for Lot 3 (0.04168) is less than the significance level which means that we can not reject the null hypothesis.
 
 
-
 ## Study Design: MechaCar vs Competition
-Objective: Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+The proposed study will design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.The study will compare cost, horse power, city or highway fuel efficiency, and maintenance cost.
+
+The metrics that will be tested are:
+      •	Cost of different vehicle types by manufacturer
+      •	Mileage
+    
+      
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
