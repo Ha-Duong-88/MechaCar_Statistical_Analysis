@@ -10,7 +10,7 @@ This project some core statistical concepts such as:
 
 ## Linear Regression to Predict MPG
 
-Total_Summary.png![Total_Summary](https://user-images.githubusercontent.com/80140082/123517597-c2489400-d656-11eb-9df7-af73f58e485a.png)
+Linear_regression.png![Linear_regression](https://user-images.githubusercontent.com/80140082/123518933-22dacf80-d65d-11eb-81f6-500475964254.png)
 
 To predict mpg, this model uses five independent variables: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD. According to the results of the multiple linear regression, two of the independent variables, vehicle_length and ground_clearance, are statistically significant to predict future mpg observations and measurements when comparing each Pr(>|t|) value, which represents the probability that each coefficient contributes a random amount of variance to the linear model. 
 
