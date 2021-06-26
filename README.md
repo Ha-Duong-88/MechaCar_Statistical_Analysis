@@ -48,7 +48,7 @@ Depending on our dataset, a significant intercept could mean that the significan
 ## Summary Statistics on Suspension Coils
 Objective: Create a summary statistics table to determine if the manufacturing process is consistent across production lots for the weight capacities of multiple suspension coils tested.
 
-The following images display the mean, median, variance and standard deviation summary statistics on Suspension Coils.
+The following images display the mean, median, variance and standard deviation by total summary and manufacturing lot statistics on Suspension Coils.
 
 total_summary.png![total_summary](https://user-images.githubusercontent.com/80140082/123518973-587fb880-d65d-11eb-99d0-84a212f4e924.png)
 
@@ -61,9 +61,25 @@ The tables “total_summary and lot_summary” illustrate the mean, median, vari
 
 
 ## T-Tests on Suspension Coils
-Objective: Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Objective: Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch (PSI).
 
-Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+The following image display the global T-Test result for all manufacturing lots.
+
+ttest_suspension_coil_global.png![ttest_suspension_coil_global](https://user-images.githubusercontent.com/80140082/123524585-4400e780-d680-11eb-9362-03744ecf16c2.png)
+
+
+The following images display the T-Test results for each manufacturing lot.
+
+ttest_lot1.png![ttest_lot1](https://user-images.githubusercontent.com/80140082/123524786-68a98f00-d681-11eb-9ec0-72c70d57eda5.png)
+
+ttest_lot2.png![ttest_lot2](https://user-images.githubusercontent.com/80140082/123524828-a3132c00-d681-11eb-8505-d0f6ff271f56.png)
+
+ttest_lot3.png![ttest_lot3](https://user-images.githubusercontent.com/80140082/123524870-ecfc1200-d681-11eb-8f11-4bd31ab3e7f3.png)
+
+
+Assuming our significance level is the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and the two means are statistically similar.
+
+
 
 ## Study Design: MechaCar vs Competition
 Objective: Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
