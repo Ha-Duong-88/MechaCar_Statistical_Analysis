@@ -28,8 +28,10 @@ Depending on our dataset, a significant intercept could mean that the significan
 
 
 
+total_summary.png![total_summary](https://user-images.githubusercontent.com/80140082/123518973-587fb880-d65d-11eb-99d0-84a212f4e924.png)
 
-Lot_Summary.png![Lot_Summary](https://user-images.githubusercontent.com/80140082/123517605-caa0cf00-d656-11eb-88da-3b3f876880bf.png)
+lot_summary.png![lot_summary](https://user-images.githubusercontent.com/80140082/123519001-849b3980-d65d-11eb-808f-0dcc5af06da7.png)
+
 
 
 write a short summary using a screenshot of the output from the linear regression, and address the following questions:
