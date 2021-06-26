@@ -8,7 +8,14 @@ This project some core statistical concepts such as:
 •	correlation and linear regression tests
 •	comparing frequency distribution using chi-squared test
 
+Analysis: Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+
+1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+2) Is the slope of the linear model considered to be zero? Why or why not?
+3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 ## Linear Regression to Predict MPG
+Objective: Design a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file
 
 Linear_regression.png![Linear_regression](https://user-images.githubusercontent.com/80140082/123518933-22dacf80-d65d-11eb-81f6-500475964254.png)
 
@@ -28,21 +35,20 @@ Depending on our dataset, a significant intercept could mean that the significan
 
 
 ## Summary Statistics on Suspension Coils
+Objective: Create a summary statistics table to determine if the manufacturing process is consistent across production lots for the weight capacities of multiple suspension coils tested.
+
+
 total_summary.png![total_summary](https://user-images.githubusercontent.com/80140082/123518973-587fb880-d65d-11eb-99d0-84a212f4e924.png)
 
 lot_summary.png![lot_summary](https://user-images.githubusercontent.com/80140082/123519001-849b3980-d65d-11eb-808f-0dcc5af06da7.png)
 
 The table “total summary” illustrates the mean, median, variance, and standard deviation of the suspension coil’s PSI for all vehicles in all three manufacturing lots. According to the total summary table the variances of the suspension coils is: 62.29, which does not exceed 100 pounds per square inch dictated by the design specifications. However, the “lot summary”, which breaks down vehicles by manufacturing lot shows manufacturing lot 3 variances of the suspension coils at 170.29 which does exceed the 100 pounds per square inch dictated by the design specifications. Therefore, only Lot 1 and 2 meet the design specification, as their variances is 0.98, and 7.47, respectively.
 
---------
-write a short summary using a screenshot of the output from the linear regression, and address the following questions:
-
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## T-Tests on Suspension Coils
+Objective: Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 ## Study Design: MechaCar vs Competition
+Objective: Design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
