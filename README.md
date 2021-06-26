@@ -19,6 +19,8 @@ The p-values are: vehicle_length is 2.60e-12, vehicle_weight is 0.078, spoiler_a
 ### Conclusion
 Using the p-value of 0.05 as the threshold, we can see that the vehicle_length and ground_clearance are statistically significant variables in predicting the future observations for the mpg dependent variable. In other words, the vehicle_length and ground_clearance features affect the mpg value.
 
+If the p-value of the independent variables is less than the intercept (slope), 
+
 < 0.05, then it is a high probability that you will get the same results again which means that this variable is able to predict future observations
 The significant intercept of vehicle_length and ground_clearance independent variables have 
 
