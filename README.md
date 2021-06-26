@@ -8,7 +8,7 @@ This project involved applying core statistical concepts and using R to compute 
 •	correlation and linear regression tests
 •	comparing frequency distribution using chi-squared test
 
-Two datasets (MechaCar_MPG and Suspension_Coils) were imported into RStudio integrated development environment (IDE) for R to perform the computation and analysis.
+Two datasets (MechaCar_MPG and Suspension_Coils) were imported into RStudio integrated development environment (IDE) in order to use R to perform the computation and analysis.
 
 Analysis: Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
@@ -48,12 +48,16 @@ Depending on our dataset, a significant intercept could mean that the significan
 ## Summary Statistics on Suspension Coils
 Objective: Create a summary statistics table to determine if the manufacturing process is consistent across production lots for the weight capacities of multiple suspension coils tested.
 
+The following images display the mean, median, variance and standard deviation summary statistics on Suspension Coils.
 
 total_summary.png![total_summary](https://user-images.githubusercontent.com/80140082/123518973-587fb880-d65d-11eb-99d0-84a212f4e924.png)
 
 lot_summary.png![lot_summary](https://user-images.githubusercontent.com/80140082/123519001-849b3980-d65d-11eb-808f-0dcc5af06da7.png)
 
-The table “total summary” illustrates the mean, median, variance, and standard deviation of the suspension coil’s PSI for all vehicles in all three manufacturing lots. According to the total summary table, the variances of the suspension coils is 62.29, which does not exceed 100 pounds per square inch dictated by the design specifications. However, the “lot summary”, which breaks down vehicles by manufacturing lot shows that manufacturing lot 3 variance of 170.29 which does exceed the 100 pounds per square inch dictated by the design specifications. Therefore, only Lot 1 and 2 meet the design specification, as their variances is 0.98, and 7.47, respectively. Lot 3 is statistically significant as it exceeds the 100 pounds per square inch.
+### Conclusion
+The current manufacturing data not meet this design specification for manufacturing lots in total but do meet two out of the manufacturings lots. 
+
+The tables “total_summary and lot_summary” illustrate the mean, median, variance, and standard deviation of the suspension coil’s PSI for all vehicles in all three manufacturing lots. According to the total_summary table, the variances of the suspension coils is 62.29, which does not exceed 100 pounds per square inch dictated by the design specifications. However, the “lot summary”, which breaks down vehicles by manufacturing lot shows that manufacturing lot 3 variance of 170.29 which does exceed the 100 pounds per square inch dictated by the design specifications. Therefore, only Lot 1 and 2 meet the design specification, as their variances is 0.98, and 7.47, respectively. Lot 3 is statistically insignificant and therefore, does not meet design specification.
 
 
 ## T-Tests on Suspension Coils
