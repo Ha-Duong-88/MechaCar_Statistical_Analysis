@@ -77,7 +77,7 @@ ttest_lot2.png![ttest_lot2](https://user-images.githubusercontent.com/80140082/1
 ttest_lot3.png![ttest_lot3](https://user-images.githubusercontent.com/80140082/123524870-ecfc1200-d681-11eb-8f11-4bd31ab3e7f3.png)
 
 
-Assuming our significance level is the common 0.05 percent, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and the two means are statistically similar.
+In conclusion, Lots 1 and 2 are statistically significant and Lot 3 is insignificant. Assuming our significance level is the common 0.05 percent, the p-values for Lot 1 (1.0) and Lot 2 (0.6027) are above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and the two means are statistically similar. However, the p-value for Lot 3 (0.04168) is less than the significance level which means that we can not reject the null hypothesis.
 
 
 
