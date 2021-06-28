@@ -33,19 +33,9 @@ The p-values for the independent variables are: vehicle_length is 2.60e-12, vehi
 
 3) The linear model predicts the mpg of this hypothetical car manufacturing corporation's prototypes based on the adjusted r-squared value of .6825 which means that the model is predictive ~68% of the time in obtaining the expected effect. For each value (or row) that we pass into the model, 68% of the data does not produce random results. However, ~32% of the data produces random results. This suggests that there could be other information or confounding variables that are not accounted for in this model.
 
+As aforementioned, for this analysis a common significance level of 0.05 was chosen as the threshold. However, it is important to note that the significance level may vary depending on the industry. For example, if the hypotheses are being used for critical decision-making such as the performance of pharmaceutical drug studies, consumer product safety, smaller cutoffs such as 0.01 or 0.001 may be better suited as the significance level.
 
-As aforementioned, for this analysis a common significance level of 0.05 was chosen as the threshold. However, it is important to note that the significance level may be selected depending on the industry that the linear regression is performed on. 
 
-
-### Draft - to be removed in final
-If the p-value of the independent variables is less than the intercept (slope), 
-
-< 0.05, then it is a high probability that you will get the same results again which means that this variable is able to predict future observations
-The significant intercept of vehicle_length and ground_clearance independent variables have 
-
-Depending on our dataset, a significant intercept could mean that the significant features (such as vehicle_length and ) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model.
-
-------------------
 ## Summary Statistics on Suspension Coils
 Objective: Create a summary statistics table to determine if the manufacturing process is consistent across production lots for the weight capacities of multiple suspension coils tested.
 
@@ -82,17 +72,24 @@ In conclusion, Lots 1 and 2 are statistically significant and Lot 3 is insignifi
 
 
 ## Study Design: MechaCar vs Competition
-The proposed study will design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.The study will compare cost, horse power, city or highway fuel efficiency, and maintenance cost.
+The proposed study will design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.The study will compare horse power, top speed, handling, and braking.
 
-The metrics that will be tested are:
-      •	Cost of different vehicle types by manufacturer
-      •	Mileage
-    
-      
+### The metrics that will be tested are:
+      * Acceleration 0-60 times 
+      * Slalom time
+      * Brake testing - start speed and brake distance
+   
+### Hypothesis
+What attributes affect vehicle performance the most?
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Hypothesis - If horse power, top speed, handling and breaking are related to vehicle performance, the higher the values across all variables, the better the vehicle performance.
+
+Null Hypothesis - While all of these variables effect vehicle performance, horse power has the least amount of effect.
+
+Alternative Hypothesis - All of these variables determine vehicle performance with varying degrees of effect based on different vehicle weights.
+
+### Data Needed for Test
+
+      * Brake testing data by vehicle weight
+      * Acceleration speed data by vehicle weight
+      * Slalom time by vehicle type and weight
