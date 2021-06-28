@@ -11,11 +11,6 @@ This project involved applying core statistical concepts and using R to compute 
 
 Two datasets (MechaCar_MPG and Suspension_Coils) were imported into RStudio integrated development environment (IDE) in order to use R to perform the computation and analysis.
 
-Analysis: Write a short summary using a screenshot of the output from the linear regression, and address the following questions:
-
-1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-2) Is the slope of the linear model considered to be zero? Why or why not?
-3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Linear Regression to Predict MPG
 Objective: Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes by designing a linear model that predicts the mpg of MechaCar prototypes using several variables from the MechaCar_mpg.csv file
